@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+pip install matplotlib
 import matplotlib.pyplot as plt
 from PIL import Image
 from sklearn.cluster import KMeans  # Using sklearn for better K-Means implementation
