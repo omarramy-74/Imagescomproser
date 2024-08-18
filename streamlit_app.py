@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
 from sklearn.cluster import KMeans  # Using sklearn for better K-Means implementation
-
+pip install streamlit
 st.title("Image Compressor")
 
 UploadedFile = st.file_uploader('Upload your file here')
