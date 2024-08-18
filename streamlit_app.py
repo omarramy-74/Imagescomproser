@@ -1,9 +1,21 @@
 import streamlit as st
 import numpy as np
-pip install matplotlib
-import matplotlib.pyplot as plt
 from PIL import Image
 from sklearn.cluster import KMeans  # Using sklearn for better K-Means implementation
+import subprocess
+import sys
+
+# Function to install packages
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Install matplotlib
+install('matplotlib')
+
+# After installation, you can import the library
+import matplotlib.pyplot as plt
+
+# The rest of your code...
 
 st.title("Image Compressor")
 
